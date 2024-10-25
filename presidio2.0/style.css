@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    border-radius: 40px;
+    margin-top: 45px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: black 20px 20px 20px;
+}
+
+.logo{
+    width: 150px;
+    height: 120px;
+    margin-right: 5%;
+}
+
+.logoimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.seila{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputado{
+    border-radius: 40px;
+    font-size: 24px;
+}
+
+.lupa{
+    width: 40px;
+    margin-left: 8px;
+}
+
+.cattexto{
+    margin: 50px 0px 0px 5%;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px 0px 0px 0px;
+}
+
+.botao{
+    padding: 15px 25px 15px 25px;
+    border-radius: 40px;   
+    background-color: transparent; 
+}
+
+.botao.ativo{
+    background-color: rgba(0, 221, 221, 0.562);
+}
+
+.botao:hover{
+    background-color: rgba(0, 255, 255, 0.425);
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    margin: 35px 0px 0px 0px;
+    
+}
+
+.conimagem{
+    background-color: rgb(0, 200, 226);
+    padding: 0px 0px 150px 0px;
+    border-radius: 3%;
+    border: solid black 3px;
+    width: 500px;
+    height: 250px;
+    box-shadow: black 10px 10px 10px;
+    position: absolute;
+    
+    
+}
+
+.textos{
+    position: absolute;
+    margin: 250px 0px 0px 0px;
+
+    
+}
+
+.tituloc{
+    margin: 10px 0px 0px 10px;
+    width: 100%;
+    font-size: 36px;
+}
+
+.inscreva{
+    background-color: rgb(47, 255, 64);
+    font-size: 25px;
+    margin-top: 15px;
+    border-radius:  0px;
+    margin-left: 40%;
+    margin-right: 20%;
+   
+}
+
+.peq{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.pequeno{
+    font-size: 24px;
+    margin-left: 60px;
+}
+
+.ead{
+    margin-left: 180px;
+}
+
